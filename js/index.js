@@ -7,10 +7,10 @@ function quadraticEquation(a, b, c) {
     if (d > 0) {
         const x1 = (-b + Math.sqrt(d)) / 2 * a;
         const x2 = (-b - Math.sqrt(d)) / 2 * a;
-        return '[x1; x2]';
+        return = [x1; x2]';
     } else if (d === 0){
-        const x3 = -b / 2 * a;
-        return x3;
+        const x = -b / 2 * a;
+        return x;
     } else {
         return 'Ooops, no answer for you..' ;
     }
