@@ -2,7 +2,7 @@ const a = parseFloat(prompt('Write A equivalent'));
 const b = parseFloat(prompt('Write B equivalent'));
 const c = parseFloat(prompt('Write C equivalent'));
 
-function quadraticEquasion(a, b, c) {
+function quadraticEquation(a, b, c) {
     const d = countDiscr(a, b, c);
     if (d > 0) {
         const x1 = (-b + Math.sqrt(d)) / 2 * a;
